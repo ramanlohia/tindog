@@ -1,0 +1,142 @@
+/* Title */
+#title{
+    background-color: #ff4c68;
+    padding-bottom: 70px;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.heading1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 3rem;
+    line-height: 1.5;
+    padding-bottom: 2rem;
+}
+
+#top_container {
+    padding: 3% 15%;
+}
+
+/* Navigation bar */
+#navbar_top{
+    padding-bottom: 4.5rem;
+}
+
+.nav-item {
+    padding: 0px 15px;
+}
+
+#tindog_brand{
+    font-family: "Ubuntu";
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* title  image */
+
+.title_image {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+}
+
+/* features*/
+
+#features {
+    text-align: center;
+    padding: 3% 10%;
+    font-family: "Montserrat", sans-serif;
+    position: relative;
+    background-color: white;
+    z-index: 1;
+}
+h2{
+    font-family: "Montserrat", sans-serif;   
+    font-size: 3rem;
+    line-height: 1.5;
+}
+h3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+p {
+    color: #8f8f8f;
+}
+.fa-solid{
+    font-weight: 30%; 
+    color: #ef8172;
+    padding-bottom: 2rem;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+
+/*  Testimonials */
+#testimonials {
+    text-align: center;
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.testimonials-image {
+    width: 15%;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+/* press  */
+
+#press {
+    padding: 7% 5%;
+    text-align: center;
+    background-color: #ff4c68
+}
+
+.press-image{
+    padding-left: 20px;
+    width: 20%;
+}
+
+/* pricing */
+
+#pricing {
+    padding : 7% 15%;
+}
+
+/* CTA */
+#cta {
+    background-color: #ff4c68;
+    padding : 7% 15%;
+}
+
+/* Footer */
+#footer{
+    padding: 2%;
+    text-align: center;
+}
+.copyright {
+    padding-top: 2%;
+    font-family: "Montserrat", sans-serif;
+    color: black;
+}
+
+.socials {
+    padding: 15px;
+}
+
+@media ( max-width: 1028px ) {
+    .title_image {
+        position: static;
+        transform: rotate(0);
+        text-align: center;
+    }
+}
